@@ -12,6 +12,7 @@
     "yaml": "^2.8.1"
   },
   "devDependencies": {
+    "@netlify/netlify-plugin-netlify-extension": "^1.2.2",
     "typescript": "^5.0.0"
   }
 }
