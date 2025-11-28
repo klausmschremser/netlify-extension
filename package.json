@@ -5,9 +5,8 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "netlify-extension build",
-    "dev": "netlify-extension dev",
-    "dev:open": "netlify-extension dev --open"
+    "build": "netlify-extension build -a",
+    "dev": "netlify-extension dev --open"
   },
   "dependencies": {
     "@netlify/sdk": "^5.0.2",
