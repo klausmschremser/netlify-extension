@@ -1,13 +1,7 @@
-# netlify.toml for the extension project (not your actual website)
-
 [build]
   command = "netlify-extension build"
   publish = ".ntli/site/static"
 
-[dev]
-  command = "netlify-extension dev"
-
-# Where the SDK-generated endpoints live if/when you add them
 [functions]
   directory = "src/endpoints"
 
