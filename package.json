@@ -1,0 +1,17 @@
+{
+  "name": "otterlyai-agentic-analytics-extension",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "netlify-extension build -a",
+    "dev": "netlify-extension dev --open"
+  },
+  "dependencies": {
+    "@netlify/sdk": "^5.0.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
