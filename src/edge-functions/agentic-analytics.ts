@@ -10,6 +10,8 @@ import type { Config, Context } from "@netlify/edge-functions";
  * https://otterly.ai/agentic-analytics/api/.
  */
 export default async function handler(request: Request, context: Context) {
+  context.log?.("[Agentic Analytics] initiated.");
+
   const apiKey = Netlify.env.get("AGENTIC_ANALYTICS_API_KEY");
   //const apiKey = "your_api_key_here"; // Replace with your actual API key or use environment variable
 
