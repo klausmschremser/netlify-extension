@@ -31,7 +31,7 @@ export const TeamConfiguration = () => {
     <TeamConfigurationSurface>
       <Card>
         <img src={logoImg} />
-        <CardTitle>Example Section for {sdk.extension.name}</CardTitle>
+        <CardTitle>No config necessary for {sdk.extension.name}</CardTitle>
         <Form
           defaultValues={
             teamSettingsQuery.data ?? {
@@ -44,28 +44,6 @@ export const TeamConfiguration = () => {
           schema={TeamConfigSchema}
           onSubmit={teamSettingsMutation.mutateAsync}
         >
-          <FormField
-            name="exampleString"
-            type="text"
-            label="Example String"
-            helpText="This is an example string"
-          />
-          <FormField
-            name="exampleNumber"
-            type="number"
-            label="Example Number"
-            helpText="This is an example number"
-          />
-          <FormFieldSecret
-            name="exampleSecret"
-            label="Example Secret"
-            helpText="This is an example secret"
-          />
-          <Checkbox
-            name="exampleBoolean"
-            label="Example Boolean"
-            helpText="This is an example boolean"
-          />
         </Form>
       </Card>
     </TeamConfigurationSurface>

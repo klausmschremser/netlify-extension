@@ -11,8 +11,8 @@ export const SiteConfiguration = () => {
   return (
     <SiteConfigurationSurface>
       <Card>
-        <CardTitle>Example Section for {sdk.extension.name}</CardTitle>
-        <p>This is an example site configuration.</p>
+        <CardTitle>No Configuration necessary for {sdk.extension.name}</CardTitle>
+        <p></p>
       </Card>
     </SiteConfigurationSurface>
   );

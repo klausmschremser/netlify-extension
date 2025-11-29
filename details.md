@@ -11,7 +11,7 @@ The Otterly AI Agentic Analytics extension provides server-side analytics tracki
 - **Server-side tracking**: Analytics data is collected at the edge before reaching your site
 - **Automatic data capture**: Tracks user agent, referrer, IP address, host, and request information
 - **Non-blocking**: Uses fire-and-forget requests to avoid impacting your site's performance
-- **Privacy-focused**: Runs on your infrastructure with your API key
+- **Privacy-focused**: Personal Identifiable Information (PII) is anonyomized
 
 ## Setup
 
