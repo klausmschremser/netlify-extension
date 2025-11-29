@@ -62,4 +62,5 @@ export default async function handler(request: Request, context: Context) {
 // Run on all paths of the site
 export const config: Config = {
   path: "/*",
+  excludedPath: ["/assets/*", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.svg"],
 };
